@@ -12,6 +12,8 @@ ________________________________________
 ________________________________________
 # Network Topology Diagram
 Description:<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3ea9661d-50b0-43cf-beaf-177ecd9aadf1" />
+
 •	PC0 and PC1 are assigned to VLAN 10.<br>
 •	PC2 and PC3 are assigned to VLAN 20.<br>
 •	All PCs are connected to different ports on the same switch.<br>
@@ -60,10 +62,14 @@ Switch(config-if-range)# switchport access vlan 20<br>
 Switch(config-if-range)# exit<br>
 ________________________________________
 # Output (Screenshots)
-•	VLAN configuration on switch<br>
-•	PC IP settings<br>
-•	Successful ping between PCs in the same VLAN<br>
-•	Failed ping between PCs in different VLANs<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/163b6036-e462-437f-8b50-d314e47c204d" />
+<img width="921" height="313" alt="image" src="https://github.com/user-attachments/assets/76922236-0de2-4742-8f67-7793da21cf1e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/47e9620a-bca6-4761-a734-14967cc396f1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3b21fd8b-12fa-4c80-bb18-d48687706b9a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3b3c1d0c-fbf9-4692-915f-10b335492072" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f9bfe4f-d005-4bf8-a5de-34f05e85dda9" />
+
+
 ________________________________________
 # Result
 Successfully created and configured VLANs on a managed switch. Verified that only PCs within the same VLAN could communicate with each other.
